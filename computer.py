@@ -24,6 +24,3 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-
-#Write your code below this line 👇
-
