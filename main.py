@@ -27,7 +27,6 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
 game_images = [rock, paper, scissors]
 
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
@@ -50,75 +49,3 @@ else:
     print("You Lose")
   elif user_choice > computer_choice:
     print("You Win!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import random
-# option = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
-# computer = random.randint(0,2)
-
-# if computer == option:
-#   print("It's a draw")
-
-# if select == "0":
-#   print(f"{rock}\n")
-# elif select == "1":
-#   print(f"{paper}\n")
-# elif select == "2":
-#   print(f"{scissors}\n")
-# else:
-#   print("You selected a different option.")
-
-# if computer == select:
-#   print("It's a draw")
-# elif computer == 1 and select == "1":
-#   print(f"Computer Chose:\n {paper}\n It's a draw")
-
-  
-# if computer == 0 and select == "0":
-#   print(f"Computer Chose:\n {rock}\n It's a draw")
-# elif computer == 1 and select == "1":
-#   print(f"Computer Chose:\n {paper}\n It's a draw")
-# elif computer == 2 and select == "2":
-#   print(f"Computer Chose:\n {scissors}\n It's a draw")
-# elif select == "1" and computer == 0:
-#   print(f"Computer Chose:\n {rock}\n You Win")
-# elif select == "0" and computer == 1:
-#   print(f"Computer Chose:\n {paper}\n You Lose")
-# elif select == "2" and computer == 0:
-#   print(f"Computer Chose:\n {rock}\n You Lose")
-# elif select == "0" and computer == 2:
-#   print(f"Computer Chose:\n {scissors}\n You Win")
-# elif select == "1" and computer == 2:
-#   print(f"Computer Chose:\n {scissors}\n You Lose")
-# elif select == "2" and computer == 1:
-#   print(f"Computer Chose:\n {paper}\n You Win")
